@@ -1,0 +1,124 @@
+.home {
+  display: flex;
+}
+
+.productcontainer {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products {
+  width: 25%;
+  margin: 10px;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.cartItemImage {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+.buttonItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity button {
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0 5px;
+}
+
+.quantity span {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+
+
+
+.formm {
+  background-color: #f2f2f2; /* Light gray color */
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.login h1 {
+  margin-bottom: 1rem;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 48, 32);
+  border-radius: 20px;
+  color: blue;
+}
+
+.loginform label {
+  padding: 10px;
+}
+
+.loginform input {
+  padding: 1px;
+  border-radius: 10px;
+  size: 10px;
+}
+
+.loginform button {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(45, 45, 28);
+}
+
+header {
+  text-align: center;
+  margin:0;
+  padding:0px;
+  padding-bottom:30px;
+  background:#777;
+  color:white;
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif;
+  font-size: xx-large;
+  letter-spacing: 1.6px;
+}
